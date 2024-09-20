@@ -1,0 +1,112 @@
+header{
+    background-image: url('images/banner/banner3.png');
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.header-button,a{
+    color: #005fac;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: #ffffff;
+    padding: 0px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#font{
+    color: #ffffff;
+    
+}
+.header-heading{
+    padding-left: 300px;
+    font-weight: 100000;
+}
+.header-para{
+    padding-left: 100px;
+    font-size: 18px;
+}
+.header-div{
+    text-align: right;
+    padding: 210px 210px 425px 800px;
+}
+li{
+    list-style: none;
+}
+li:before{
+    content:"✓ ";
+    color: #16d887;
+}
+.content-para, li,#fontcolor{
+    color: #757575;
+}
+.first-content{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+main{
+    max-width: 1141px;
+    margin: 0 auto;
+}
+.planheading{
+    text-align: center;
+    margin-bottom: 70px;
+}
+#fontcolor{
+    font-size: 24px;
+}
+.my-plan{
+    display: flex;
+    gap: 110px;
+    text-align: center;
+    height: 202.96px;
+    margin-bottom: 150px;
+}
+.positive-mindset{
+    text-align: left;
+    background-image: url('images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 10px 400px 150px 50px;
+}
+.positive-para{
+    font-size: 56px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    background-color: black;
+    height: 251px;
+    padding: 130px 200px;
+    gap: 300px;
+}
+.footer-header,.footer-p{
+    color: #ffffff;
+}
+.footer{
+    width: 50%;
+}
+.footer-input{
+    color: #ffffff;
+    background-color: black;
+    border-color: #ffffff;
+    border-radius: 5px;
+    padding: 8px 25px;
+    font-size: 18px;
+}
+.footer-input,.footer-button{
+    display: block;
+    margin-bottom: 15px;
+}
+.footer-button{
+    background-color: #005fac;
+    color: #ffffff;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    border-color: black;
+}
